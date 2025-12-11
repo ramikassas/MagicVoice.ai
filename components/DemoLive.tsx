@@ -53,9 +53,9 @@ const DemoLive: React.FC = () => {
                         <span className="text-xs text-gray-400 uppercase">System Status</span>
                     </div>
                     <div className="text-sm font-mono text-purple-200">
-                        > Listening to user input...<br/>
-                        > Processing natural language...<br/>
-                        > MagicVoice AI Response generated.
+                        &gt; Listening to user input...<br/>
+                        &gt; Processing natural language...<br/>
+                        &gt; MagicVoice AI Response generated.
                     </div>
                 </div>
             </div>
