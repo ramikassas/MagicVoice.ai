@@ -1,0 +1,8 @@
+{
+  "name": "MagicVoice.ai - Premium Domain & Tech Showcase",
+  "description": "A premium landing page for the MagicVoice.ai domain, featuring live demonstrations of cutting-edge Generative AI audio and video capabilities powered by Gemini.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}
