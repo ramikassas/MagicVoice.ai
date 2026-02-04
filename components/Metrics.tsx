@@ -4,8 +4,8 @@ import React from 'react';
 export const Metrics: React.FC = () => {
   const metrics = [
     { label: "Search Volume", value: "High", detail: "Global Voice-AI Trend", icon: "📈" },
-    { label: "CPC Potential", value: "$15.00", detail: "Average Industry Lead", icon: "💰" },
-    { label: "Domain Age", value: "2 Years", detail: "Established Authority", icon: "⏳" },
+    { label: "CPC Potential", value: "$25.00", detail: "Average Industry Lead", icon: "💰" },
+    { label: "Domain Age", value: "7 Years", detail: "Established Authority", icon: "⏳" },
     { label: "Extension", value: ".AI", detail: "The Standard for Innovation", icon: "🤖" },
   ];
 
