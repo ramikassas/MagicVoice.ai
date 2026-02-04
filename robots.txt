@@ -1,4 +1,4 @@
 
 User-agent: *
 Allow: /
-Sitemap: https://magicvoice.ai/sitemap.xml
+Sitemap: https://magicvoice.rdm.bz/sitemap.xml
