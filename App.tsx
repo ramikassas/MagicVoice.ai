@@ -12,22 +12,56 @@ import { AIPreview } from './components/AIPreview';
 
 const App: React.FC = () => {
   useEffect(() => {
-    // Inject JSON-LD Schema for SEO
+    // Inject JSON-LD Schema for SEO with all required fields to fix Google errors
     const schemaData = {
       "@context": "https://schema.org/",
       "@type": "Product",
       "name": "MagicVoice.ai Premium Domain",
-      "image": "https://picsum.photos/seed/magicvoice/1200/630",
-      "description": "MagicVoice.ai is a premium domain name for the AI, voice synthesis, and audio technology industries. Available for acquisition.",
+      "image": "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&q=80&w=1200&h=630",
+      "description": "MagicVoice.ai is a premium domain name for the AI, voice synthesis, and audio technology industries. Available for acquisition for $102,000.",
       "brand": {
         "@type": "Brand",
         "name": "MagicVoice"
       },
+      "sku": "MV-AI-001",
       "offers": {
         "@type": "Offer",
-        "url": "https://magicvoice.rdm.bz/",
+        "url": "https://rdm.bz/domain/magicvoice.ai",
+        "price": "102000.00",
         "priceCurrency": "USD",
+        "priceValidUntil": "2026-12-31",
         "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0",
+            "currency": "USD"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 1,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 1,
+              "unitCode": "DAY"
+            }
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnPeriod",
+          "merchantReturnDays": "7",
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
         "seller": {
           "@type": "Organization",
           "name": "Rare Domains Marketplace (RDM)"
