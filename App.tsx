@@ -25,7 +25,7 @@ const App: React.FC = () => {
       },
       "offers": {
         "@type": "Offer",
-        "url": "https://rdm.bz/domain/magicvoice.ai",
+        "url": "https://magicvoice.rdm.bz/",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
         "seller": {
@@ -41,7 +41,8 @@ const App: React.FC = () => {
     document.head.appendChild(script);
 
     return () => {
-      document.head.removeChild(script);
+      const existing = document.querySelector('script[type="application/ld+json"]');
+      if (existing) document.head.removeChild(existing);
     };
   }, []);
 

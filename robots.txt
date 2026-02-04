@@ -1,4 +1,3 @@
-
 User-agent: *
 Allow: /
 Sitemap: https://magicvoice.rdm.bz/sitemap.xml
